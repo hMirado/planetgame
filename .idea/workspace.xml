@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c825af8-efc2-44a0-9470-ad364c212ca7" name="Default Changelist" comment="" />
+    <list default="true" id="5c825af8-efc2-44a0-9470-ad364c212ca7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/helpers/MY_array_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/helpers/MY_url_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Home_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Image_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Product_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/contents/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/contents/home.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -27,6 +39,9 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1zmCi7jlWmLAF3vXAUeTaQEShKU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,7 +53,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../htdocs/planetgame" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -63,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634744000843</updated>
       <workItem from="1634744002918" duration="5228000" />
+      <workItem from="1636226262528" duration="4060000" />
     </task>
     <servers />
   </component>
@@ -78,5 +94,21 @@
       <screen x="0" y="25" width="1440" height="831" />
     </state>
     <state x="320" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-114.1920.1055/0.25.1440.831@0.25.1440.831" timestamp="1634744777770" />
+    <state x="507" y="199" key="FileChooserDialogImpl" timestamp="1636226329877">
+      <screen x="0" y="25" width="1440" height="831" />
+    </state>
+    <state x="507" y="199" key="FileChooserDialogImpl/0.25.1440.831@0.25.1440.831" timestamp="1636226329877" />
+    <state x="398" y="261" key="NewPhpClassDialog" timestamp="1636226727257">
+      <screen x="0" y="25" width="1440" height="831" />
+    </state>
+    <state x="398" y="261" key="NewPhpClassDialog/0.25.1440.831@0.25.1440.831" timestamp="1636226727257" />
+    <state x="541" y="368" key="NewPhpFileDialog" timestamp="1636229968159">
+      <screen x="0" y="25" width="1440" height="831" />
+    </state>
+    <state x="541" y="368" key="NewPhpFileDialog/0.25.1440.831@0.25.1440.831" timestamp="1636229968159" />
+    <state x="386" y="197" width="667" height="486" key="find.popup" timestamp="1636226347370">
+      <screen x="0" y="25" width="1440" height="831" />
+    </state>
+    <state x="386" y="197" width="667" height="486" key="find.popup/0.25.1440.831@0.25.1440.831" timestamp="1636226347370" />
   </component>
 </project>

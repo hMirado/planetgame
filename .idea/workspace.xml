@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c825af8-efc2-44a0-9470-ad364c212ca7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/helpers/MY_array_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/helpers/MY_url_helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models/Home_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models/Image_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models/Product_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/contents/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/contents/home.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +35,7 @@
   <component name="ProjectId" id="1zmCi7jlWmLAF3vXAUeTaQEShKU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,12 +69,25 @@
       <option name="presentableId" value="Default" />
       <updated>1634744000843</updated>
       <workItem from="1634744002918" duration="5228000" />
-      <workItem from="1636226262528" duration="4060000" />
+      <workItem from="1636226262528" duration="4192000" />
+      <workItem from="1636302412417" duration="69000" />
     </task>
+    <task id="LOCAL-00001" summary="Show product">
+      <created>1636231375002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636231375002</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Show product" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show product" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="103" key="#SQL_Dialects" timestamp="1634744637543">
@@ -94,6 +98,10 @@
       <screen x="0" y="25" width="1440" height="831" />
     </state>
     <state x="320" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-114.1920.1055/0.25.1440.831@0.25.1440.831" timestamp="1634744777770" />
+    <state x="314" y="40" key="CommitChangelistDialog2" timestamp="1636231374600">
+      <screen x="0" y="25" width="1440" height="831" />
+    </state>
+    <state x="314" y="40" key="CommitChangelistDialog2/0.25.1440.831@0.25.1440.831" timestamp="1636231374600" />
     <state x="507" y="199" key="FileChooserDialogImpl" timestamp="1636226329877">
       <screen x="0" y="25" width="1440" height="831" />
     </state>
@@ -106,6 +114,10 @@
       <screen x="0" y="25" width="1440" height="831" />
     </state>
     <state x="541" y="368" key="NewPhpFileDialog/0.25.1440.831@0.25.1440.831" timestamp="1636229968159" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1636231382054">
+      <screen x="0" y="25" width="1440" height="831" />
+    </state>
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.25.1440.831@0.25.1440.831" timestamp="1636231382054" />
     <state x="386" y="197" width="667" height="486" key="find.popup" timestamp="1636226347370">
       <screen x="0" y="25" width="1440" height="831" />
     </state>

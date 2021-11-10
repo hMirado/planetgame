@@ -16,7 +16,7 @@ class Home extends MY_Controller
 	{
 	    $data['slides'] = $this->image->getSlides();
 	    $data['categoriesImg'] = $this->image->getCategoriesImg();
-	    $data['products'] = $this->product->getProducts();
+	    $data['products'] = $this->product->getProductsOverview();
         $data['categories'] = group1($data['products']);
 
 		$this->load->view('contents/home', $data);

@@ -175,3 +175,7 @@
 		</div>
 	</div>
 </section>
+
+<?php
+$this->load->view("modals/modal_login");
+?>

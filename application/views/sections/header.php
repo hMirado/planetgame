@@ -18,7 +18,7 @@
                     if($logged_in):
                         echo "<a href='#' class='flex-c-m trans-04 p-lr-25'>Mon compte</a>";
                     else:
-                        echo "<a href='#' class='flex-c-m trans-04 p-lr-25'>Connexion</a>";
+                        echo "<a href='#' class='flex-c-m trans-04 p-lr-25' id='login' data-toggle='modal' data-target='#modal-login' data-backdrop='static' data-keyboard='false'>Connexion</a>";
                     endif; ?>
 				</div>
 			</div>

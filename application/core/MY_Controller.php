@@ -40,7 +40,9 @@ class MY_Controller extends CI_Controller
 		$this->load->js('assets/vendor/sweetalert/sweetalert.min.js');
 		$this->load->js('assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js');
 		$this->load->js('assets/js/main.js');
+		$this->load->js('assets/custom/js/login.js');
 
+		/*
         $this->load->library('session');
         $newdata = array(
             'username'  => 'johndoe',
@@ -49,6 +51,7 @@ class MY_Controller extends CI_Controller
         );
 
         $this->session->set_userdata($newdata);
+        */
 	}
 
 }

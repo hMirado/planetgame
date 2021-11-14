@@ -32,6 +32,7 @@
 
 <!-- Contenu de la page -->
 <?php echo $output; ?>
+
 <!-- Contenu de la page -->
 
 <!-- footer -->

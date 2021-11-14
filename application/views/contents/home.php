@@ -45,7 +45,7 @@
                 <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
                     <!-- Block1 -->
                     <div class="block1 wrap-pic-w">
-                        <img src="<?= $img_url.$img->image; ?>" alt="IMG-BANNER">
+                        <img src="<?= IMG_URL.$img->image; ?>" alt="IMG-BANNER">
 
                         <a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
                             <div class="block1-txt-child1 flex-col-l">
@@ -134,10 +134,12 @@
 			<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item <?= $product->categorie; ?>">
 				<!-- Block2 -->
 				<div class="block2">
-					<div class="block2-pic hov-img0">
-						<img src="<?= base_url('assets/images/product-01.jpg');?>" alt="IMG-PRODUCT">
+					<div class="block2-pic hov-img0" style="padding: 15px;">
+						<img src="<?= IMG_PRODUCT_URL . $product->image ;?>" alt="IMG-PRODUCT" width="300" height="270">
 
-						<a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
+						<a href="#" data-name="<?= $product->name;?>" data-description="<?= $product->description; ?>" data-price="<?= $product->price; ?>"
+                           data-image="<?= IMG_PRODUCT_URL . $product->image;?>" data-stock="<?= $product->stock;?>" data-id="<?= $product->productId;?>"
+                           class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1 show-qv">
 							Aperçu rapide
 						</a>
 					</div>
@@ -145,11 +147,11 @@
 					<div class="block2-txt flex-w flex-t p-t-14">
 						<div class="block2-txt-child1 flex-col-l ">
 							<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-                                <?= $product->name; ?>
+                                <?= strtoupper($product->name); ?>
 							</a>
 
 							<span class="stext-105 cl3">
-								<?= $product->price; ?> MGA
+								<?= number_format($product->price, '0', '', ' '); ?> MGA
                             </span>
 						</div>
 
@@ -169,8 +171,8 @@
 
 		<!-- Load more -->
 		<div class="flex-c-m flex-w w-full p-t-45">
-			<a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
-				Load More
+			<a href="<?php echo base_url('shop'); ?>" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+				Voir d'avantage
 			</a>
 		</div>
 	</div>

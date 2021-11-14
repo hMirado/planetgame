@@ -159,7 +159,8 @@ FROM product p
 INNER JOIN brand b ON p.productBrandId=b.brandId
 INNER JOIN category c ON p.productCategoryId=c.categoryId
 INNER JOIN subcategory sc ON p.productSubcategoryId=sc.subcategoryId
-LEFT JOIN stock s ON p.productId=s.stockProductId;
+LEFT JOIN stock s ON p.productId=s.stockProductId
+GROUP BY p.productId, p.productName, p.productDescription;
 
 CREATE OR REPLACE VIEW v_image_type AS
 SELECT it.imageTypeId as id, it.type, CASE WHEN count(i.imageId) = 0 THEN 0 ELSE count(i.imageId) END nombre
